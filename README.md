@@ -5,12 +5,12 @@ The second version of employee management uses binary files to store employees a
 ![Alt text](https://github.com/ja1za1/Employee-management-v2/blob/main/imgs/photo(introduction).png)
 
 ## 1. Department registration
-   Register a department with a serial(automatically asigned by the program, starting by 1) ID, a name, the manager ID, the initials and its branch. The ID and name      fields can't be empty, branch field must have only numbers, manager ID must be a registered employee (or 0 if there are no employees registered) on the employee        file (funcionario.dat). 
+   Register a department with a serial(automatically asigned by the program, starting by 1) ID, a name, the manager ID, the initials and its branch. The ID and name      fields can't be empty, branch field must have only numbers, manager ID must be a registered employee (or 0 if there are no employees registered) on the employee        file (employee.dat). 
    
    ![Alt text](https://github.com/ja1za1/Employee-management-v2/blob/main/imgs/photo(dptregistration).png)
 
 ## 2. Employee registration
-   Register an employee with an serial(automatically asigned by the program, starting by 1) ID, an unique registry, a name, a birthday, CPF, its department ID, salary,    address(street, district, number, complement, city, uf, cep), email. The registry and name field can't be empty, must validate birthday date and CPF, department ID    must be a registered department on the department file (departamento.dat).
+   Register an employee with an serial(automatically asigned by the program, starting by 1) ID, an unique registry, a name, a birthday, CPF, its department ID, salary,    address(street, district, number, complement, city, uf, cep), email. The registry and name field can't be empty, must validate birthday date and CPF, department ID    must be a registered department on the department file (department.dat).
    
    ![Alt text](https://github.com/ja1za1/Employee-management-v2/blob/main/imgs/photo(employeeregistration).png)
 
